@@ -12,3 +12,13 @@ The sampel demonstrates:
 
 See files in `wiremock/mock/src/mappings` for each sample
 
+Wiremock is started on 9999 port.
+Some sample requests:
+```
+http://localhost:9999/mocked
+
+http://localhost:9999/mocked-error
+
+http://localhost:9999/echo
+
+```
