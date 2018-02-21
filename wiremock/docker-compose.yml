@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+
+   app:
+     build:
+        context: ./app
+        dockerfile: Dockerfile
+     image: mockpoc/app
+     ports:
+        - 8080:8080
+     container_name: mockpoc_app
