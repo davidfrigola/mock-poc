@@ -1,0 +1,11 @@
+{
+    "priority":10,
+    "request": {
+        "method": "GET",
+        "url": "/mocked"
+    },
+    "response": {
+        "status": 200,
+        "body": "This comes from wiremock!\n"
+    }
+}

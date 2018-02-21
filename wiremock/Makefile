@@ -7,4 +7,5 @@ build:
 
 run:
 	docker-compose up -d
+	cd ./mock/src/ && $(MAKE) run &
 

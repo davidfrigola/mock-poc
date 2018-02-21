@@ -1,0 +1,11 @@
+{
+    "priority":10,
+    "request": {
+        "method": "GET",
+        "url": "/mocked-error"
+    },
+    "response": {
+        "status": 500,
+        "body": "Mocked internal error!\n"
+    }
+}
