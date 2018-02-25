@@ -1,5 +1,7 @@
 # POCs on mocking
 
+Use `make runapp` to start the sample application for proxied samples.
+
 # Wiremock
 
 Using wiremock to proxy some requests and mock others
