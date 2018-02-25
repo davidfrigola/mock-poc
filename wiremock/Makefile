@@ -1,11 +1,7 @@
 default:
-	@echo "Use make build|run"
-
-build:
-	docker-compose build
-
+	@echo "Use make run"
 
 run:
-	docker-compose up -d
-	cd ./mock/src/ && $(MAKE) run &
+	sh download.sh
+	java -jar wiremock.jar --port 9999 &
 
